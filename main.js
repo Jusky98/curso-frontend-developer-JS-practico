@@ -8,11 +8,14 @@ const mobileMenu = document.querySelector('.mobile-menu')
 const shoppingCart = document.querySelector('.navbar-shopping-cart')
 const shoppingCartPreview = document.querySelector('.product-detail')
 const cardsContainer = document.querySelector('.cards-container')
+// Aside2 preview
+
 
 
 navEmail.addEventListener('click', toogleMenu);
 burgerMenu.addEventListener('click', toogleBurger);
 shoppingCart.addEventListener('click', tooglePreview);
+
 
 
 function toogleMenu(){
@@ -44,6 +47,7 @@ function tooglePreview(){
     shoppingCartPreview.classList.toggle('inactive-cart-preview')
 
 }
+
 
 const productList = []; 
 productList.push({
